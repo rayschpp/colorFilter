@@ -4,6 +4,8 @@ import cv2 as cv
 import numpy as np
 import time
 
+from app import app
+
 #read the image
 img = cv.imread("image.jpg")
 #convert the BGR image to HSV colour space
